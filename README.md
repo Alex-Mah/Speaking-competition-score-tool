@@ -5,7 +5,7 @@
 **Core aspects:**
 - **What does it do?** Tracks the scoring details for participants of a public speaking competition
 - **Who will use it?** The administrators and contestants of a public speaking competition in an extra curricular youth program
-- **Why am I interested?** I am the coordinator for the above event and would like to extend the functionality of crude timer I made last year in Racket
+- **Why am I interested?** I am the coordinator for the above event and would like to extend the functionality of a timer I initially made in a teaching language
 - For more information on the competition visit: http://aircadetleague.com/effective-speaking-program/
 ## **User stories:**
 *As a user, I want to...*
