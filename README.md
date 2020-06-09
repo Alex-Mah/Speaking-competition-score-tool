@@ -20,3 +20,6 @@
 - save the participants and their details to a text file
 - start the score keeper with the last saved list of participants, start fresh if no save file is present
 - save the winner (in a brief string statement with their name) to a text file
+
+##Screenshot
+![UI](./data/ScorekeeperUI.jpg "UI")
