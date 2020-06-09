@@ -1,0 +1,33 @@
+package persistence;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
+
+//Copied from Writer class of TellerApp
+// A writer that can write contestant data to a file
+public class Writer {
+    private PrintWriter printWriter;
+
+    // REQUIRES:
+    // MODIFIES:
+    // EFFECTS: constructs a writer that will write data to file
+    public Writer(File file) throws FileNotFoundException, UnsupportedEncodingException {
+        printWriter = new PrintWriter(file, "UTF-8");
+    }
+
+    // REQUIRES:
+    // MODIFIES: this
+    // EFFECTS: writes saveable to file
+    public void write(Saveable saveable) {
+        saveable.save(printWriter);
+    }
+
+    // REQUIRES:
+    // MODIFIES: this
+    // EFFECTS: close print writer
+    public void close() {
+        printWriter.close();
+    }
+}
